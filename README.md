@@ -12,13 +12,13 @@ styling.html      Proyecto destacado (Aitana) · Editoriales · Videoclips · Al
 assets/css/style.css
 assets/js/main.js
 assets/img/       logo-negro.png, logo-blanco.png, favicon.png
-assets/video/     hero.mp4 (añadir)
+assets/img/collections/  portadas de las colecciones
 vercel.json       URLs limpias (/about, /design, /styling)
 ```
 
 ## Sustituir contenido
 
-- **Vídeo de la home:** `assets/video/hero.mp4` (sin audio, en bucle). Mientras no exista se ve una imagen fija.
+- **Portada de la home:** `assets/img/home/home-cover.jpg` (y `home-cover-1200.jpg` para móvil).
 - **Imágenes:** ahora son de ejemplo (`picsum.photos`). Guarda las reales en `assets/img/` y cambia el `src`
   (ej. `assets/img/design/estudio-coleccion-01.jpg`). Formato vertical 3:4 para las tarjetas.
 - **Colecciones:** en `design.html`, duplica un bloque `<a class="card">…</a>` por colección.

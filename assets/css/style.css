@@ -311,6 +311,15 @@ ul.list { padding: 0; margin: 0; }
 /* ---------- Styling: número del ranking más pequeño en ordenador ---------- */
 @media (min-width: 901px) { .entry__rank { font-size: 22px; } }
 
+
+/* ---------- Portadas reales ---------- */
+.hero__poster { object-position: 68% 50%; }
+@media (max-width: 900px) { .hero__poster { object-position: 75% 50%; } }
+.hero::after { background: rgba(0,0,0,.12); }
+.collection__cover { aspect-ratio: auto; height: auto; max-height: none; background: none; }
+.collection__cover img { width: 100%; height: auto; max-height: calc(100svh - 180px); object-fit: contain; object-position: right center; }
+@media (max-width: 900px) { .collection__cover img { object-position: center; } }
+
 /* ---------- APARICIÓN ---------- */
 .reveal { opacity: 0; transform: translateY(24px); transition: opacity 1s var(--ease), transform 1s var(--ease); }
 .reveal.is-in { opacity: 1; transform: none; }
