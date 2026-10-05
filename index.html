@@ -32,13 +32,10 @@
 
   <!-- Vídeo a pantalla completa en bucle -->
   <section class="hero">
-    <!-- Imagen de respaldo mientras no haya vídeo -->
-    <img class="hero__poster" src="https://picsum.photos/seed/tt-hero/1920/1080?grayscale" alt="">
-    <!-- SUSTITUIR: coloca tu vídeo en assets/video/hero.mp4 (y opcionalmente hero.webm) -->
-    <video autoplay muted loop playsinline preload="auto" poster="https://picsum.photos/seed/tt-hero/1920/1080?grayscale">
-      <source src="assets/video/hero.webm" type="video/webm">
-      <source src="assets/video/hero.mp4" type="video/mp4">
-    </video>
+    <!-- Imagen de portada a pantalla completa -->
+    <img class="hero__poster" src="assets/img/home/home-cover.jpg"
+         srcset="assets/img/home/home-cover-1200.jpg 1200w, assets/img/home/home-cover.jpg 2400w"
+         sizes="100vw" alt="Teresa Turégano — portada" fetchpriority="high">
     <img class="hero__logo" src="assets/img/logo-blanco.png" alt="Teresa Turégano">
     <span class="hero__scroll label">Scroll</span>
   </section>
