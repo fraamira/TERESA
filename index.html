@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teresa Turégano</title>
+  <meta name="description" content="Teresa Turégano — creativa, diseñadora y estilista. Reinterpreta lo que ya existe para crear algo nuevo.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Michroma&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Intro: logo de carga -->
+  <div class="intro" aria-hidden="true">
+    <img src="assets/img/logo-negro.png" alt="">
+    <div class="intro__bar"></div>
+  </div>
+
+  <header class="header header--over">
+    <a class="header__logo" href="index.html" aria-label="Teresa Turégano — inicio">
+      <img src="assets/img/logo-negro.png" alt="Teresa Turégano">
+    </a>
+    <nav class="nav">
+      <a class="label" href="about.html">About</a>
+      <a class="label" href="design.html">Design</a>
+      <a class="label" href="styling.html">Styling</a>
+    </nav>
+  </header>
+
+  <!-- Vídeo a pantalla completa en bucle -->
+  <section class="hero">
+    <!-- Imagen de respaldo mientras no haya vídeo -->
+    <img class="hero__poster" src="https://picsum.photos/seed/tt-hero/1920/1080?grayscale" alt="">
+    <!-- SUSTITUIR: coloca tu vídeo en assets/video/hero.mp4 (y opcionalmente hero.webm) -->
+    <video autoplay muted loop playsinline preload="auto" poster="https://picsum.photos/seed/tt-hero/1920/1080?grayscale">
+      <source src="assets/video/hero.webm" type="video/webm">
+      <source src="assets/video/hero.mp4" type="video/mp4">
+    </video>
+    <img class="hero__logo" src="assets/img/logo-blanco.png" alt="Teresa Turégano">
+    <span class="hero__scroll label">Scroll</span>
+  </section>
+
+  <!-- Tres secciones -->
+  <section class="sections">
+    <a class="tile" href="about.html">
+      <img src="assets/img/home/design.jpg" alt="About — Teresa Turégano">
+      <div class="tile__name"><span class="label">About</span></div>
+    </a>
+    <a class="tile" href="design.html">
+      <img src="assets/img/home/about.jpg" alt="Design — Teresa Turégano">
+      <div class="tile__name"><span class="label">Design</span></div>
+    </a>
+    <a class="tile tile--styling" href="styling.html">
+      <img src="assets/img/home/styling.jpg" alt="Styling — Teresa Turégano">
+      <div class="tile__name"><span class="label">Styling</span></div>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <span class="label">© <span data-year>2026</span> Teresa Turégano</span>
+    <div class="footer__links">
+      <a class="label" href="mailto:teresagarciaturegano@gmail.com">Contact</a>
+      <a class="label" href="https://www.instagram.com/teresa.turegano_estudio/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
