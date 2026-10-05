@@ -1,4 +1,0 @@
-Coloca aquí el vídeo de la home con el nombre:
-  hero.mp4   (obligatorio, H.264, sin audio, ~10-20 s, idealmente < 8 MB)
-  hero.webm  (opcional, más ligero)
-Mientras no exista, la home muestra una imagen fija de respaldo.
